@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Weather</title>
+    <meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
+</head>
+<body>
+<main role="main">
+    <div class="starter-template">
+        <h1>
+            <!--/*@thymesVar id="city" type="templates"*/-->
+            <span th:text="'You entered city called' + ${city}"></span>
+        </h1>
+    </div>
+</main>
+</body>
+</html>
